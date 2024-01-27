@@ -1,0 +1,83 @@
+.bgimg1{
+    background-image: url('../images/homeimg1.jpg');
+    background-size:cover;
+    height: 100vh;
+}
+.bmilink{
+    padding-left: 150px;
+    padding-top: 300px;
+    
+}
+div p{
+    color: black;
+}
+.secdiv{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+.thirddiv{
+    display: flex;
+    flex-direction: row;
+}
+.hourcard{
+    width:25rem;
+    margin-left: 3rem;
+}
+.serv{
+    margin-left: 28rem;
+    margin-right: 30rem;
+}
+.cardE{
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+
+
+@media (max-width: 480px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .bgimg1{
+        height:340px;
+        width:375px;
+        background-size: cover;
+        
+    }
+
+    .bmilink{
+        padding-left: 50px;
+        padding-top: 90px;
+        
+    }
+    .secdiv{
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        padding: 2%;
+        
+    }
+    .thirddiv{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hourcard{
+        width:20rem;
+        margin: 0%;
+        
+    }
+    .serv{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .cardE{
+        margin-left:0%;
+        margin-right:0%;
+    }
+    .service{
+        color: darkgoldenrod;
+    }
+    
+}

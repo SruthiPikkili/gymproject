@@ -1,0 +1,11 @@
+.planStyle{
+    background-color:darkgoldenrod;
+}
+@media (max-width: 480px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        padding-right: 60px;
+        
+    }
+}

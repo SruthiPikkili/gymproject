@@ -1,0 +1,96 @@
+.bgimg{
+    background-image: url('../components/images/gym1.jpg');
+    background-size:cover;
+    
+    height:853px;
+    width: 1250px;
+    
+}
+
+/* .bgimg1{
+    background-image: url('../components/images/logogym1.webp');
+    background-size:cover;
+} */
+
+div p{
+    color: black;
+}
+.secdiv{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+.thirddiv{
+    display: flex;
+    flex-direction: row;
+}
+.hourcard{
+    width:25rem;
+    margin-left: 3rem;
+}
+.serv{
+    margin-left: 28rem;
+    margin-right: 30rem;
+}
+.cardE{
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+
+.join{
+    margin-top: 300px;
+    margin-left: 580px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+@media (max-width: 480px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .bgimg{
+        height:500px;
+        width: 375px;
+        background-size: cover;
+        
+    }
+    .secdiv{
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        padding: 2%;
+        
+    }
+    .thirddiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .join{
+        margin-top: 400px;
+        
+        margin-left: 130px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+    }
+    .hourcard{
+        width:20rem;
+        margin: 0%;
+        
+    }
+    .serv{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .cardE{
+        margin-left:0%;
+        margin-right:0%;
+    }
+    .service{
+        color: darkgoldenrod;
+    }
+    
+}

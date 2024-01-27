@@ -1,0 +1,14 @@
+.testimg{
+   background-color:darkgoldenrod;
+   width: 50rem;
+}
+@media (max-width: 480px){
+    
+    .testimg{
+        
+        
+        width: 18rem;
+        
+        
+    }
+}
